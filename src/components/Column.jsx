@@ -1,13 +1,14 @@
-import "./Column.css"
+import { Link } from "react-router-dom";
+import "./Column.css";
 
-function Column () {
-  return(
+function Column() {
+  return (
     <div className="Column">
       <img src="./logo-BC-blanco.svg" alt="" />
-      <a href="/"> Añadir Alumno</a>
-      <a href="/Data">Base de Datos</a>
+      <Link to="/">Añadir Alumno</Link>
+      <Link to="/data">Base de Datos</Link>
     </div>
-  )
+  );
 }
 
 export default Column;
