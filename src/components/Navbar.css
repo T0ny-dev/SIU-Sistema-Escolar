@@ -1,0 +1,42 @@
+.Navbar {
+  display: flex;
+  width: 85vw;
+  justify-content: space-between;
+  padding: 1vh 5vw;
+  box-shadow: -4px 9px 5px -8px rgba(0,0,0,0.17);
+-webkit-box-shadow: -4px 9px 5px -8px rgba(0,0,0,0.17);
+-moz-box-shadow: -4px 9px 5px -8px rgba(0,0,0,0.17);
+height: 6vh;
+  background-color: #595970;
+}
+
+.logo {
+  width: 150px;
+}
+
+h4 {
+  color: #fff;
+  font-weight: 400;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #1cbc9c;
+  margin-left: 5px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

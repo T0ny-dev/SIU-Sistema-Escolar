@@ -1,0 +1,56 @@
+
+
+.Card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #3c3c4a;
+  margin-bottom: 1vh;
+}
+
+.Card > div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+}
+
+.Card h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.Card p {
+  margin: 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+.Card a {
+  color: antiquewhite;
+  display: flex;
+  align-items: center;
+}
+
+.Card a:hover {
+  color: rgb(194, 194, 194);
+}
+
+.button_delete {
+  background-color: #f44336;
+  color: #fff;
+}
+
+#folder {
+  width: 35px;
+  margin-right: 10px;
+}
+
+#button {
+  margin-bottom: 10px;
+}

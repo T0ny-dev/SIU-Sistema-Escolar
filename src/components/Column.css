@@ -1,0 +1,25 @@
+.Column {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #353740;
+  width: 15vw;
+  align-items: center;
+  padding: 5vh 1vw;
+}
+
+.Column img {
+  width: 150px;
+  margin-bottom: 10vh;
+}
+
+.Column a {
+  margin-bottom: 3vh;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.Column a:hover {
+  color:  rgb(194, 194, 194);
+}

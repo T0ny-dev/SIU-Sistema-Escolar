@@ -1,0 +1,33 @@
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.AddForm {
+  background-color: #353740;
+  width: 85vw;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AddForm input {
+  width: 100%;
+  margin-top: 2vh;
+  background-color: #20212380;
+  border: solid 1px #20212380;
+  padding: 20px;
+  color: antiquewhite;
+  font-size: 14px;
+}
+
+.Form__edit {
+  background-color: transparent;
+  border: none;
+}
+
+.Form__edit label {
+  color: #fff;
+}

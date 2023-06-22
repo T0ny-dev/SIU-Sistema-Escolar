@@ -1,0 +1,51 @@
+.AddData {
+  width: 85vw;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow-y: scroll;
+
+
+  /* Personalizar la barra de desplazamiento */
+  scrollbar-width: thin;
+  scrollbar-color: purple #595970;
+}
+
+.AddData::-webkit-scrollbar {
+  width: 20px; /* Ancho de la barra de desplazamiento */
+}
+
+.AddData::-webkit-scrollbar-thumb {
+  background-color: #33333c; /* Color del pulgar (scrollbar thumb) */
+  border-radius: 4px; /* Borde redondeado del pulgar */
+}
+
+.AddData::-webkit-scrollbar-thumb:hover {
+  background-color: #2d2d34;; /* Color del pulgar al pasar el mouse */
+}
+
+.AddData::-webkit-scrollbar-track {
+  background-color: #595970; /* Color de la pista (scrollbar track) */
+}
+
+.AddForm__Send {
+  background-color: transparent;
+  border: none;
+  width: 50%;
+}
+
+.AddForm__Send  label {
+  color:#fff;
+}
+
+.AddData input {
+  width: 100%;
+  margin-top: 2vh;
+  background-color: #20212380;
+  border: solid 1px #20212380;
+  padding: 20px;
+  color: antiquewhite;
+  font-size: 14px;
+}

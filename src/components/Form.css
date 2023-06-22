@@ -1,0 +1,49 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #353740;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 15px;
+  padding: 5vh 2vw; 
+}
+
+form img {
+  width: 200px;
+  margin-bottom: 2vh;
+}
+
+form h1 {
+  margin-bottom: 2vh;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #e6e6e6;
+  margin-bottom: 3vh;
+}
+
+.button_primary {
+  background-color: #ffb937;
+  padding: 15px;
+}
+
+hr {
+  margin:4vh 0vw;
+}
+
+p {
+  margin-bottom: 2vh;
+}
