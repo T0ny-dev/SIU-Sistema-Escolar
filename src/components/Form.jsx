@@ -21,7 +21,7 @@ function Form() {
   return (
     <div className="Container">
       <form onSubmit={submitHandler}>
-        <img src="./logoBC-azul.svg" alt="" />
+        <img src="/logo.png" alt="" style={{width:"150px"}} />
         <p>Te damos la bienvenida</p>
         <h1>Inicia sesión</h1>
         <label htmlFor="cuenta">Cuenta</label>
@@ -32,13 +32,6 @@ function Form() {
           Entrar
         </button>
         {error && <p className="error-message">{error}</p>} {/* Mostrar el mensaje de error si existe */}
-        <hr />
-        <p>
-          Este es un sitio exclusivo de la Universidad Tamaulipeca con el
-          Business Center. Si aún no tienes acceso, solicítalo aquí.
-        </p>
-        <p>¿Tienes dudas? Contáctanos:</p>
-        <button>Soporte</button>
       </form>
     </div>
   );

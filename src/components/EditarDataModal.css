@@ -7,7 +7,7 @@ form {
 .AddForm {
   background-color: #353740;
   width: 85vw;
-  height: 95vh;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;

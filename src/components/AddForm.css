@@ -34,6 +34,9 @@
   background-color: transparent;
   border: none;
   width: 50%;
+  height: auto;
+  padding-top: 60vh;
+  padding-bottom: 15vh;
 }
 
 .AddForm__Send  label {

@@ -12,11 +12,15 @@
 form {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 30vw;
+  height: auto;
+  justify-content: center;
+  align-items: center;
   background-color: #fff;
   border: 1px solid #e6e6e6;
   border-radius: 15px;
   padding: 5vh 2vw; 
+  color: black;
 }
 
 form img {
@@ -26,18 +30,23 @@ form img {
 
 form h1 {
   margin-bottom: 2vh;
+  font-size: 2rem;
 }
 
 input {
-  padding: 10px;
+  padding: 12px;
   border-radius: 5px;
-  border: 1px solid #e6e6e6;
-  margin-bottom: 3vh;
+  border: 1px solid #bebebe;
+  margin-bottom: 3vh; 
+  color: #000;
+  width: 80%;
+  background-color: #fff;
 }
 
 .button_primary {
   background-color: #ffb937;
-  padding: 15px;
+  padding: 10px;
+  width: 80%;
 }
 
 hr {
